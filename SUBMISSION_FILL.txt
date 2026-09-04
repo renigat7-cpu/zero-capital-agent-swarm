@@ -1,0 +1,31 @@
+ZERO-CAPITAL ECONOMIC AGENT SWARM — готовый текст для формы сабмита
+====================================================================
+Дата подготовки: 4 сентября 2026
+Когда использовать: 5 сентября (после открытия окна сборки) -> build.jigjoy.ai/dashboard -> Submit
+Скопировать и вставить нижеследующие поля. Дедлайн: вечер 6 сентября (лучше 6-го днём).
+
+--------------------------------------------------------------------
+
+PROJECT NAME
+Zero-Capital Economic Agent Swarm
+
+GITHUB REPOSITORY URL
+https://github.com/renigat7-cpu/zero-capital-agent-swarm
+
+SHORT DESCRIPTION
+A concurrent swarm of 5 AI agents (Scanner, Market, Evaluator, Writer, Observer) that lives in ONE Mozaik RuntimeState, receives the same message.sent event, and processes it simultaneously — independently inferring, calling real tools, and coordinating through a shared board. The goal: find the first real-money opportunity at $0 capital cost. Concurrency isn't a feature we claim, it's the core mechanic, proven with per-agent timestamps.
+
+HOW IT WORKS
+An operator sends one economic question -> broadcast as a single message.sent event. Scanner finds zero-capital opportunities, Market calls a real tool (get_quotes) for live BTC/S&P500 quotes, Evaluator ranks each by Expected Value (EV = P × reward - $0). All three write to a SharedBoard. Writer reads the full board and synthesizes ONE action plan. Observer logs every agent's answer with a timestamp — live proof of true concurrent execution.
+
+WHY IT'S A REAL MOZAIK SYSTEM
+Uses the actual @mozaik-ai/core v4 runtime: defineRuntime, createAgent, createHuman, SemanticEvent, runLoop, situation handlers, FunctionCallOutputItem tool-calling — verified against the official docs. Event-driven concurrency + adaptive coordination through shared RuntimeState, not a sequential pipeline in disguise.
+
+ZERO-CAPITAL BET
+All inference on free models via a local OpenAI-compatible omniroute (CAPEX = $0). Real market data from Yahoo Finance (no API key). Self-deduplication saves tokens. Runs anywhere in one command: npm install && npm run start:mock (deterministic ~1s offline demo) or npm run start:real (live swarm via free omniroute).
+
+DEMO
+demo.mp4 in the repo — rendered from a real LLM run log with live BTC/S&P500 quotes and per-agent timestamps. Real log included at logs/demo-2026-09-02T21-50-48-547Z.log.
+
+TECHNOLOGIES
+JavaScript, TypeScript, Node.js, Mozaik, AI Agents
