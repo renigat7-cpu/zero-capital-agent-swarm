@@ -1,0 +1,60 @@
+# Zero-Capital Economic Agent Swarm — demo run
+# Request: Find a zero-capital way to earn first money and check current BTC market.
+# Elapsed: 85.1s
+# NOTE: agents started within the same millisecond and finished independently (concurrent)
+# ----------------------------------------------------------------
+[21:49:23.459] Main: Рассылаю запрос всем агентам: "Find a zero-capital way to earn first money and check current BTC market."
+[21:49:23.461] Main: Агенты Scanner, Market, Evaluator начинают работать ОДНОВРЕМЕННО...
+[21:49:23.462] Scanner: получил событие message.sent (Find a zero-capital way to earn first mo...)
+[21:49:23.542] Market: получил событие message.sent (Find a zero-capital way to earn first mo...)
+[21:49:23.544] Evaluator: получил событие message.sent (Find a zero-capital way to earn first mo...)
+[21:49:38.120] Board: Scanner ЗАПИСАЛ на общую доску #1: I cannot check live BTC prices. Try Gitcoin bounties for Web3 coding, 
+[21:49:38.120] Observer: вижу ответ агента Scanner: I cannot check live BTC prices. Try Gitcoin bounties for Web3 coding, participate in a dev hackathon like ETHGlobal (oft
+[21:49:49.884] Board: Evaluator ЗАПИСАЛ на общую доску #2: EV-оценка: **1. Zero-Capital Method: Service Arbitrage / Freelancing (
+[21:49:49.884] Observer: вижу ответ агента Evaluator: **1. Zero-Capital Method: Service Arbitrage / Freelancing (Upwork/Fiverr/LinkedIn)**
+*   **Action:** Sell a high-leverag
+[21:50:01.875] Observer: вижу ответ агента Market: **Current BTC Market:**
+- **BTC-USD**: $77,251.99 (+0.11%)
+- **S&P 500 (^GSPC)**: 7,666.60 (+0.46%)
+
+---
+
+### Zero-Capit
+[21:50:01.876] Writer: все рабочие агенты ответили — собираю итоговый отчёт.
+[21:50:48.547] Main: Сводка после 85.1s:
+[21:50:48.547] Main:   Scanner: I cannot check live BTC prices. Try Gitcoin bounties for Web3 coding, participate in a dev hackathon like ETHGlobal (often remote with prize pools), or complete high-paying microtasks on Prolific for academic research.
+[21:50:48.547] Main:   Market: **Current BTC Market:**
+- **BTC-USD**: $77,251.99 (+0.11%)
+- **S&P 500 (^GSPC)**: 7,666.60 (+0.46%)
+
+---
+
+### Zero-Capital Ways to Earn Your First Money
+
+Since you have no capital to invest, you'll need to trade **time, skill, or effort** instead. Here are practical, legitimate starting points:
+
+| Method | How It Works | Typical First Earnings | Time to First $ |
+|--------|--------------|------------------------|-----------------|
+| **Freelance micro-tasks** (Upwork, Fiverr, Toptal) | Offer a specific skill: copywriting, graphic design, video editing, coding, translation, data entry | $50–$500/project | 1–4 weeks |
+| **Gig economy** (Uber, DoorDash, TaskRabbit, Instacart) | Drive, deliver, or do local tasks | $200–$800/mo part-time | Days |
+| **Online tutoring/teaching** (Preply, iTalki, Cambly, Outschool) | Teach a language, academic subject
+[21:50:48.547] Main:   Evaluator: **1. Zero-Capital Method: Service Arbitrage / Freelancing (Upwork/Fiverr/LinkedIn)**
+*   **Action:** Sell a high-leverage skill (copywriting, video editing, coding, lead gen, design) using free tools.
+*   **EV Calculation:**
+    *   *P(Success)*: ~0.30 (30% chance to land first $500/mo client within 30 days with aggressive outreach).
+    *   *Reward*: $500/mo recurring (NPV ~$5,000 @ 10% discount).
+    *   *Cost*: $0 capital + ~40 hrs labor (Opportunity Cost ~$400 @ $10/hr).
+    *   **EV = (0.30 * $5,000) - $400 = $1,100.**
+*   **Verdict:** **Highly Positive EV.** Best risk/reward for $0 start.
+
+**2. Current BTC Market Check**
+*   **I cannot access real-time data.** My knowledge cuts off earlier.
+*   **Action Required:** Check **TradingView, CoinGecko, or CoinMarketCap** immediately for:
+    *   **Spot Price** (Current ~$60k-$70k range context).
+    *   **Funding Rates** (Positive = Longs pay Shorts / Bullish bias).
+    *   **Fear & Gre
+[21:50:48.547] Main: Проверка: если агенты отвечали с разными таймштампами одновременно — concurrency подтверждён.
+[21:50:48.547] Main: SHARED STATE: агенты записали 2 записи в общую доску (координация видна).
+[21:50:48.547] Board-view:   #1 [Scanner] I cannot check live BTC prices. Try Gitcoin bounties for Web3 coding, participate in a dev hackathon like ETHGlobal (often remote with prize pools), or complete high-paying microtasks on Prolific for 
+[21:50:48.547] Board-view:   #2 [Evaluator] EV-оценка: **1. Zero-Capital Method: Service Arbitrage / Freelancing (Upwork/Fiverr/LinkedIn)**
+*   **Action:** Sell a high-leverage skill (copywriting, video editing, coding, lead gen, desig

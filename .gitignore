@@ -1,0 +1,5 @@
+node_modules/
+.env
+dist/
+logs/*
+!logs/demo-2026-09-02T21-50-48-547Z.log
